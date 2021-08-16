@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-flex-box{
+            display: flex;
+            flex-direction: column;
+            background-color: limegreen;
+        }
+        .header-bar{
+            padding: 1%;
+            flex-basis: 100px;
+        }
+        .content-flex-box{
+            display: flex;
+            flex-direction: row;
+            flex-basis: 400px;
+        }
+        .article-bar{
+            flex-basis: 60%;
+            background-color: white;
+            padding: 1%;
+        }
+        .aside-bar{
+            flex-basis: 20%;
+            background-color: wheat;
+            padding: 1%;
+        }
+        .nav-bar{
+            flex-basis: 20%;
+            background-color: silver;
+            padding: 1%;
+        }
+        .footer-bar{
+            flex-basis: 100px;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-flex-box">
+        <div class="header-bar">Header</div>
+        <div class="content-flex-box">
+            <div class="article-bar">Article</div>
+            <div class="aside-bar">Aside</div>
+            <div class="nav-bar">Nav</div>
+        </div>
+        <div class="footer-bar">Footer</div>
+    </div>
+</body>
+</html>
