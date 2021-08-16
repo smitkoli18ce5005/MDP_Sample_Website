@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-flex-box{
+            display: flex;
+            flex-direction: row;
+            height: 700px;
+        }
+        .nav-bar{
+            background-color: silver;
+            flex-basis: 15%;
+            padding: 1%;
+        }
+        .content-flex-box{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 70%;
+        }
+        .header-bar{
+            background-color: limegreen;
+            padding: 1%;
+            height: 100px;
+        }
+        .footer-bar{
+            background-color: limegreen;
+            padding: 1%;
+            height: 100px;
+        }
+        .inside-content-flex-box{
+            display: flex;
+            flex-direction: row;
+            height: 500px;
+        }
+        .article-bar{
+            background-color: white;
+            flex-basis: 70%;
+            padding: 1%;
+        }
+        .aside-bar{
+            background-color: wheat;
+            flex-basis: 30%;
+            padding: 1%;    
+        }
+    </style>
+</head>
+<body>
+    <div class="main-flex-box">
+        <div class="nav-bar"><h5>Nav</h5></div>
+        <div class="content-flex-box">
+            <div class="header-bar"><h5>Header</h5></div>
+            <div class="inside-content-flex-box">
+                <div class="article-bar"><h5>Artice</h5></div>
+                <div class="aside-bar"><h5>Aside</h5></div>
+            </div>
+            <div class="footer-bar"><h5>Footer</h5></div>
+        </div>
+    </div>
+</body>
+</html>
